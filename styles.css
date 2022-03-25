@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  max-width: 500px;
+  margin: auto;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header-img {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header > h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header > h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 15px;
+}
+
+.input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+  height: 30px;
+  outline: none;
+}
+
+.btn {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.meme-img {
+  padding: 10px;
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.topText,
+.bottomText {
+  font-family: impact, sans-serif;
+  font-size: 5vh;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%), translateY(-50%);
+}
+
+.topText {
+  top: 0%;
+}
+
+.bottomText {
+  bottom: 0%;
+}
