@@ -8,7 +8,7 @@ This is part of a module, where we have to build a project while learning ReactJ
 
 This is the first dynamic website created on the course, with challenges to build the app while learning the concepts and a [Figma design](https://www.figma.com/file/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator) to replicate.
 
-The main goal of the project was to learn practise `Event Listeners`, `useState()`, `Conditional Rendering`, `Forms` and `useEffect`.
+The main goal of the project was to learn and practise `Event Listeners`, `useState()`, `Conditional Rendering`, `Forms` and `useEffect`.
 
 🌐 [Live Demo of this project](https://heartfelt-biscotti-9295f9.netlify.app/)
 
