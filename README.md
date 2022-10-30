@@ -10,7 +10,7 @@ This is the first dynamic website created on the course, with challenges to buil
 
 The main goal of the project was to learn and practise `Event Listeners`, `useState()`, `Conditional Rendering`, `Forms` and `useEffect`.
 
-🌐 [Live Demo of this project](https://heartfelt-biscotti-9295f9.netlify.app/)
+🌐 [Live Demo of this project](https://stunning-zabaione-6eb009.netlify.app)
 
 ## 🧰 Technologies used
 
